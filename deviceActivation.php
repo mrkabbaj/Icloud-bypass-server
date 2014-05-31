@@ -61,6 +61,17 @@ $accountTokenCertificateBase64='LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURaekND
 
 // how to create FairPlayKeyData, that is a question
 
+// if add this strings to xml: 
+		//<key>ack-received</key>
+              	  //<true/>
+              	//<key>show-settings</key>
+              	  //<true/>
+// instead of:
+		//<key>unbrick</key>
+		//  <true/>
+// then device activate in iTunes but it is stuck on activation in device
+
+
 echo '
 <!DOCTYPE html>
 	<html>
